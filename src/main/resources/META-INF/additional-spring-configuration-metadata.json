@@ -1,0 +1,37 @@
+{"properties": [
+  {
+    "name": "jwt.secret",
+    "type": "java.lang.String",
+    "description": "Texto secreto para generar los Token (JWT)"
+  },
+  {
+    "name": "jwt.expiration",
+    "type": "java.lang.String",
+    "description": "Tiempo en milisegundos de la expiración del token generado (JWT)"
+  },
+  {
+    "name": "token.signing.key",
+    "type": "java.lang.String",
+    "description": "Llave con la cual se generan los token (JWT)"
+  },
+  {
+    "name": "origins",
+    "type": "java.lang.String",
+    "description": "Url's list from the origins permits"
+  },
+  {
+    "name": "springdoc.swagger-ui.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'springdoc.swagger-ui.enabled'"
+  },
+  {
+    "name": "springdoc.swagger-ui.use-root-path",
+    "type": "java.lang.String",
+    "description": "A description for 'springdoc.swagger-ui.use-root-path'"
+  },
+  {
+    "name": "springdoc.api-docs.version",
+    "type": "java.lang.String",
+    "description": "A description for 'springdoc.api-docs.version'"
+  }
+]}
